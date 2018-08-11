@@ -1,5 +1,10 @@
-year="1998"
-if(year%4==0 and year%100!=0 and year%400==0):
- print(year is a leap year)
+year =2016
+if (year%400 == 0):
+          print("yes")
+elif (year%100 == 0):
+          print("no")
+elif (year%4 == 0):
+          print("yes")
 else:
- print(year is not a leap year)
+          print("no")
+ 
